@@ -124,6 +124,15 @@ class LoginScreen extends React.Component {
           <Text style = {{color: "white"}}>Login With Facebook</Text>    
         </Button>
 
+        <Button style = {{marginTop: 10}}
+          full
+          rounded
+          primary 
+          onPress = {() => this.props.navigation.navigate('MapScreen')}
+        > 
+          <Text style = {{color: "white"}}>shortcut</Text>    
+        </Button>
+
         </Form>
       </Container>
     );

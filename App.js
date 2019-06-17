@@ -3,11 +3,14 @@ import { StyleSheet, Text, View } from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import LoginScreen from './Screens/LoginScreen';
 import MapScreen from './Screens/MapScreen';
+// import EventModalScreen from './Screens/EventModalScreen';
+
 
 
 const AppNavigator = createStackNavigator({
   LoginScreen: {screen : LoginScreen},
-  MapScreen: {screen: MapScreen}
+  MapScreen: {screen: MapScreen},
+  // EventModalScreen: { screen: EventModalScreen }
 })
 
 const AppContainer = createAppContainer(AppNavigator);
