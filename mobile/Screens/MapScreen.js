@@ -3,7 +3,6 @@ import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
 import * as firebase from 'firebase';
 import { Container, Content, Header, Form, Input, Item, Label, Button, Textarea, Switch, ListItem, Left, Right } from 'native-base';
 import { MapView } from 'expo';
-// import EventModalScreen from './EventModalScreen';
 import Modal from "react-native-modal";
 
 // const AppContainer = createAppContainer(AppNavigator);
@@ -41,7 +40,7 @@ class MapScreen extends React.Component {
             onPress= {() => this.setModalVisible(true)}>
             <Image
               style={{width: 65, height: 65}}
-              source={require('../ButtonImages/post.png')}
+              source={require('../Images/post.png')}
             /> 
           </TouchableOpacity>
         </MapView>
